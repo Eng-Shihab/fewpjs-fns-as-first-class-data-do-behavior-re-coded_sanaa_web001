@@ -30,5 +30,5 @@ function greet(timestring) {
 /* Write your implementation of displayMessage() */
 
 function displayMessage(string) {
-    document.getElementById("greeting").innerText = `TEST`;
+    document.getElementById("greeting").innerText = `${string}`;
 }
