@@ -22,16 +22,13 @@ function greet(timestring) {
 
         return "Good Afternoon";
 
-    } else if (hours >= 17) {
+    } else {
 
         return "Good Evening";
     }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(greet) {
 
-    document.getElementById("greeting").innerHTML = greet;
-
-
-
+function displayMessage(String) {
+    document.getElementById("greeting").innerText = `TEST`;
 }
